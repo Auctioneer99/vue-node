@@ -1,4 +1,4 @@
-# client
+# course-demo
 
 ## Project setup
 ```
