@@ -28,6 +28,45 @@ const routes = [
     name: "Events",
     component: () => import("../views/Events/Events.vue"),
   },
+  {
+    path: "/events/create",
+    name: "CreateEvent",
+    component: () => import("../views/Events/CreateEvent.vue"),
+  },
+  {
+    path: "/events/event",
+    name: "Event",
+    props: true,
+    component: () => import("../views/Events/Event.vue"),
+  },
+  {
+    path: "/events/event/information",
+    name: "EventInformation",
+    component: () => import("../views/Events/Edit/EventInformation.vue"),
+  },
+  {
+    path: "/events/event/dates",
+    name: "Dates",
+    component: () => import("../views/Events/Edit/EventDates.vue"),
+  },
+
+  {
+    path: "/documents",
+    name: "Documents",
+    component: () => import("../views/Documents/Documents.vue"),
+  },
+  {
+    path: "/documents/document",
+    name: "Document",
+    props: true,
+    component: () => import("../views/Documents/Document.vue"),
+  },
+  {
+    path: "/documents/document/information",
+    name: "DocumentInformation",
+    props: true,
+    component: () => import("../views/Documents/Edit/DocumentInformation.vue"),
+  },
 
   {
     path: "/signin",

@@ -12,7 +12,7 @@
         <router-link class="nav-link" to="/events"><button class="btn btn-light btn-lg">Events</button></router-link>
       </li>
       <li class="nav-item">
-        <router-link class="nav-link" to="/events"><button class="btn btn-light btn-lg">Documents</button></router-link>
+        <router-link class="nav-link" to="/documents"><button class="btn btn-light btn-lg">Documents</button></router-link>
       </li>
     </ul>
     <ul class="nav justify-content-center w-100 col-3 m-0">
